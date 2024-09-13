@@ -1,4 +1,5 @@
-import 'package:chat_bot/week1.dart';
+import 'package:chat_bot/app/pages/chat_page.dart';
+import 'package:chat_bot/practice.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: Week2Practice(),
+      home: ChatPage(),
     );
   }
 }
