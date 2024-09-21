@@ -18,8 +18,6 @@ class _ChatPageState extends State<ChatPage> {
 
   final List<Map<String, String>> messages = [];
   final List<Map<String, dynamic>> chat = [];
-  // static const String OpenAiKey =
-  //     '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';
   final dio = Dio();
 
   static const geminiKey = "";
