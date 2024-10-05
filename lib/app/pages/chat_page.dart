@@ -20,7 +20,7 @@ class _ChatPageState extends State<ChatPage> {
   final List<Map<String, dynamic>> chat = [];
   final dio = Dio();
 
-  static const geminiKey = "";
+  static const geminiKey = "AIzaSyDclM3W_D4WqUqgvBtLsJeMZFd9fP5ItYQ";
 
   Future<String> geminiAPI() async {
     try {
