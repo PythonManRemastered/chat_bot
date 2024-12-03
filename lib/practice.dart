@@ -20,7 +20,8 @@ class Week2Practice extends StatelessWidget {
               'Hello, Flutter!',
               style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
             ),
-            SizedBox(height: 20), // Adds vertical spacing between widgets.
+            const SizedBox(
+                height: 20), // Adds vertical spacing between widgets.
 
             // Container widget: Can hold a single child and apply padding, margins, borders, and background color.
             Container(
@@ -82,7 +83,8 @@ class Week2Practice extends StatelessWidget {
                 // Action when button is pressed.
                 print('Elevated Button Pressed');
               },
-              child: Text('Elevated Button'), // Text displayed on the button.
+              child: const Text(
+                  'Elevated Button'), // Text displayed on the button.
             ),
             const SizedBox(height: 10), // Adds vertical spacing.
 
@@ -92,7 +94,7 @@ class Week2Practice extends StatelessWidget {
                 // Action when button is pressed.
                 print('Text Button Pressed');
               },
-              child: Text('Text Button'), // Text displayed on the button.
+              child: const Text('Text Button'), // Text displayed on the button.
             ),
             const SizedBox(height: 20), // Adds vertical spacing.
 
